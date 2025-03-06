@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/app
+    command: npm run dev
+    networks:
+      - portfolio-network
+
+  # Si tu utilises une base de données (comme PostgreSQL, MongoDB, etc.), tu peux la configurer ici.
+  # Exemple pour PostgreSQL :
+  # db:
+  #   image: postgres:latest
+  #   environment:
+  #     POSTGRES_USER: user
+  #     POSTGRES_PASSWORD: password
+  #     POSTGRES_DB: portfolio_db
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   networks:
+  #     - portfolio-network
+
+networks:
+  portfolio-network:
+
+# Uncomment below if you use volumes
+# volumes:
+#   postgres_data:
