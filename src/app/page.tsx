@@ -92,7 +92,7 @@ export default function Home() {
         ></div>
         <div className="container position-relative" style={{ zIndex: 2 }}>
           <h1 className="display-2 fw-bold" data-aos="fade-down">
-            Bienvenue dans mon univers
+            Bienvenue ...
           </h1>
           <p className="lead mb-4" data-aos="fade-up" data-aos-delay="200">
             Développeur web passionné, créant des expériences interactives inoubliables.
