@@ -173,7 +173,7 @@
                   <div className="card-body position-relative text-center">
                     <h5 className="card-title fw-bold">Plateforme de Recrutement </h5>
                     <p className="card-text">
-                      Une solution complète pour la gestion des offres d'emploi, des candidatures et des entretiens.
+                      Une solution complète pour la gestion des offres d&apos;emploi, des candidatures et des entretiens.
                     </p>
                     Laravel 10 - Back-end  🔹 MySQL  🔹 Bootstrap 5  
                   </div>
@@ -249,7 +249,7 @@
                     />
                     <div className="certification-card p-3 shadow rounded bg-dark text-white">
                       <h5>📚 Certification Flutter (En cours)</h5>
-                      <p>Actuellement en formation sur Flutter pour maîtriser le développement d’applications mobiles modernes et performantes.</p>
+                      <p>Actuellement en formation sur Flutter pour maîtriser le développement d&apos;applications mobiles modernes et performantes.</p>
                       <a href="lien-de-certification" className="btn btn-outline-light btn-sm disabled">
                         Certification en cours...   
                       </a>
