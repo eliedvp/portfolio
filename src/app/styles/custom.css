@@ -25,3 +25,15 @@
     z-index: 10000;
   }
   
+
+  /* styles/custom.css */
+
+/* Container de la vidéo */
+ 
+
+/* Vidéo */
+video {
+  width: 100%;
+  height: auto;       /* Garde la proportion de la vidéo */
+  border-radius: 50px; /* Ajoute un arrondi aux coins si désiré */
+}

@@ -166,3 +166,17 @@ a.secondary {
     filter: invert();
   }
 }
+
+
+.video-container {
+  max-width: 100%;    /* Maximise la largeur en fonction du parent */
+  max-height: 300px;  /* Limite la hauteur pour les vidéos */
+  margin: 0 auto;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;       /* Garde la proportion de la vidéo */
+  border-radius: 10px; /* Ajoute un arrondi aux coins si désiré */
+}

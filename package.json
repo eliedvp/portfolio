@@ -7,7 +7,7 @@
     "build": "npm run vercel buil",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build"
+    "vercel-build": "next build"
   },
   "dependencies": {
     "aos": "^2.3.4",
